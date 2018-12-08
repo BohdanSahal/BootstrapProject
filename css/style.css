@@ -1,0 +1,16 @@
+html, body, header, #intro{
+    height: 100%;
+}
+#intro {
+    background: url(../img/abstract-green-plant-35196.jpg) no-repeat center center fixed;
+    background-size: cover;
+    
+}
+.top-nav-collapse{
+    background-color: #24355C;
+}
+@media (max-width: 768ps) {
+    .navbar:not(.top-nav-collapse){
+        background: #24355C;
+    }
+}
